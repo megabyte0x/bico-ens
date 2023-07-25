@@ -13,3 +13,6 @@ npx hardhat run scripts/deploy.js
 ```
 # bico-ens
 # bico-ens
+
+
+DEPLOYED CONTRACT => https://goerli.etherscan.io/address/0x51478310755f8f501B6F62B80789E32519B3d862#code

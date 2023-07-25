@@ -2,8 +2,6 @@
 require('@nomiclabs/hardhat-etherscan');
 require('@nomiclabs/hardhat-ethers');
 require('@nomiclabs/hardhat-waffle');
-require('hardhat-deploy');
-require('hardhat-deploy-ethers');
 
 real_accounts = undefined;
 if (process.env.DEPLOYER_KEY && process.env.OWNER_KEY) {
@@ -29,7 +27,7 @@ module.exports = {
       gatewayurl: devgatewayurl,
     },
     goerli: {
-      url: `https://eth-goerli.g.alchemy.com/v2/osh_odh_x-GihPrBMIcOsqhxahstlPns`,
+      url: `https://eth-goerli.g.alchemy.com/v2/<KEY>`,
       tags: ['test', 'demo'],
       chainId: 5,
       accounts: real_accounts,
